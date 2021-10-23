@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Hometask07 by Stanislau Turasau for EPAM Lab Autumn 2021</title>
+</head>
+<body>
+  <header class="top">
+
+    <div class="top__wrap-up">
+      <div class="top__wrap-up__logo">
+        <a href="#" class="top__wrap-up__logo__link">akad.</a>
+      </div>
+      <nav class="top__wrap-up__menu">
+        <ul class="top__wrap-up__menu__list">
+          <li class="top__wrap-up__menu__list__item"></li>
+          <li class="top__wrap-up__menu__list__item"></li>
+          <li class="top__wrap-up__menu__list__item"></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="top__wrap-low"> 
+      <h1 class="top__wrap-low__heading"> blog posts </h1>
+      <p class="top__wrap-low__nav">
+        <a href="#" class="top__wrap-low__nav__link"> home </a>
+        &nbsp/&nbsp
+        <a href="#" class="top__wrap-low__nav__link"> blog </a>
+      </p>
+    </div>    
+  </header>
+
+  <main class="main-content">
+    <article class="container">
+      <section class="post">
+        <figure class="post__img">
+          <img src="<%=require('./images/post_photo.png')%>" class="post__img__picture"  alt="Photo for post" />
+        </figure>        
+        <div class="post__info">
+          <div class="post__info__date">october 13, 2015</div>
+          <div class="post__info__comments">
+            <img src="<%=require('./images/chatboxes.svg')%>" alt="comments" />
+            <p>8</p>
+          </div>
+          <div class="post__info__likes">
+            <img src="<%=require('./images/red-heart.svg')%>" alt="likes" />
+            <p>15</p>
+          </div>
+        </div>
+        <h2>the big leagues our turn straightnin</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna 
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          Duis aute irure dolor in reprehenderit in voluptate velit 
+          esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+        <a class="post__read-more-link" href="#">
+          continue reading
+          <img 
+            src="<%=require('./images/arrow-fwd.svg')%>" 
+            alt="next arrow" 
+            class="post__read-more-link__arrow"
+          />
+        </a>
+      </section>
+      <section class="post">
+        <figure class="post__img">
+          <img src="<%=require('./images/post_photo.png')%>" class="post__img__picture"  alt="Photo for post" />
+        </figure>        
+        <div class="post__info">
+          <div class="post__info__date">october 13, 2015</div>
+          <div class="post__info__comments">
+            <img src="<%=require('./images/chatboxes.svg')%>" alt="comments" />
+            <p>8</p>
+          </div>
+          <div class="post__info__likes">
+            <img src="<%=require('./images/red-heart.svg')%>" alt="likes" />
+            <p>15</p>
+          </div>
+        </div>
+        <h2>the big leagues our turn straightnin</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna 
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          Duis aute irure dolor in reprehenderit in voluptate velit 
+          esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+        <a class="post__read-more-link" href="#">
+          continue reading
+          <img 
+            src="<%=require('./images/arrow-fwd.svg')%>" 
+            alt="next arrow" 
+            class="post__read-more-link__arrow"
+          />
+        </a>
+      </section>
+      <section class="post">
+        <figure class="post__img">
+          <img src="<%=require('./images/post_photo.png')%>" class="post__img__picture" alt="Photo for post" />
+        </figure>        
+        <div class="post__info">
+          <div class="post__info__date">october 13, 2015</div>
+          <div class="post__info__comments">
+            <img src="<%=require('./images/chatboxes.svg')%>" alt="comments" />
+            <p>8</p>
+          </div>
+          <div class="post__info__likes">
+            <img src="<%=require('./images/red-heart.svg')%>" alt="likes" />
+            <p>15</p>
+          </div>
+        </div>
+        <h2>the big leagues our turn straightnin</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna 
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          Duis aute irure dolor in reprehenderit in voluptate velit 
+          esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+        <a class="post__read-more-link" href="#">
+          continue reading
+          <img 
+            src="<%=require('./images/arrow-fwd.svg')%>" 
+            alt="next arrow" 
+            class="post__read-more-link__arrow"
+          />
+        </a>
+      </section>
+    </article>
+    <aside class="side-content">
+      <form action="" class="side-content__search">
+        <div class="side-content__search__wrap">
+          <input type="text" class="side-content__search__wrap__input" placeholder="search..." />
+        </div>       
+      </form>
+      <section class="side-content__posts">
+        <h3>posts</h3>
+        <div class="side-content__posts__wrap">
+          <span>latest</span>
+          <span>popular</span>
+          <span>comments</span>
+        </div>
+        <div class="side-content__posts__latest">
+          <div class="side-content__posts__latest__top">
+            <img 
+              src="<%=require('./images/sea01.jpg')%>" 
+              alt="latest post magna"
+              class="side-content__posts__latest__top__photo" 
+            />
+            <div class="side-content__posts__latest__info">
+              <h4>Magna mollis ultricies</h4>
+              <p>3th oct 2012</p>
+            </div>            
+          </div>
+          <div class="side-content__posts__latest__top">
+            <img 
+              src="<%=require('./images/sea02.jpg')%>" 
+              alt="latest post magna"
+              class="side-content__posts__latest__top__photo" 
+            />
+            <div class="side-content__posts__latest__info">
+              <h4>Magna mollis ultricies</h4>
+              <p>3th oct 2012</p>
+            </div>   
+          </div>
+          <div class="side-content__posts__latest__top">
+            <img 
+              src="<%=require('./images/sea03.jpg')%>" 
+              alt="latest post magna"
+              class="side-content__posts__latest__top__photo" 
+            />
+            <div class="side-content__posts__latest__info">
+              <h4>Magna mollis ultricies</h4>
+              <p>3th oct 2012</p>
+            </div>   
+          </div>
+        </div>
+      </section>
+      <section class="side-content__categories">
+        <h3>categories</h3>
+        <div class="side-content__categories__wrap">
+          <div class="side-content__categories__wrap__items">
+            <span>Businness</span>
+            <span>15</span>
+          </div>
+          <div class="side-content__categories__wrap__items">
+            <span>Photography</span>
+            <span>17</span>
+          </div>
+          <div class="side-content__categories__wrap__items">
+            <span>Journal</span>
+            <span>22</span>
+          </div>
+          <div class="side-content__categories__wrap__items">
+            <span>Web development</span>
+            <span>30</span>
+          </div>
+        </div>
+      </section>
+      <section class="side-content__tags">
+        <h3>tags</h3>
+        <div class="side-content__tags__wrap">
+          <div>
+            <div>css</div>
+            <div>javascript</div>
+            <div>jquery</div>
+          </div>
+          <div>
+            <div>html5</div>
+            <div>bootstrap</div>
+          </div>
+          <div>
+            <div>css</div>
+            <div>javascript</div>
+            <div>jquery</div>
+          </div>
+        </div>
+      </section>
+      <section class="side-content__archives">
+        <h3>archives</h3>
+        <div class="side-content__archives__wrap">
+          <div class="side-content__archives__wrap__items">
+            <span>Businness</span>
+            <span>15</span>
+          </div>
+          <div class="side-content__archives__wrap__items">
+            <span>Photography</span>
+            <span>17</span>
+          </div>
+          <div class="side-content__archives__wrap__items">
+            <span>Journal</span>
+            <span>22</span>
+          </div>
+          <div class="side-content__archives__wrap__items">
+            <span>Web development</span>
+            <span>30</span>
+          </div>
+        </div>
+      </section>      
+    </aside>
+  </main>
+
+  <aside class="bottom">
+    <div class="bottom__cooperation-wrap">
+      <h3>
+        you think we're cool ? let's work together
+      </h3>
+      <button>get in touch</button>
+    </div>
+    <div class="bottom__feedback-wrap">
+      <h3>
+        stay informed with our newsletter
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <form action="#">
+        <input required type="email" placeholder="your email" />
+        <button>send</button>
+      </form>
+    </div>
+  </aside>
+
+  <footer class="footer">
+    <nav class="footer__menu">
+      <a href="#">home</a>
+      <a href="#">about us</a>
+      <a href="#">services</a>
+      <a href="#">portfolio</a>
+      <a href="#">blog</a>
+      <a href="#">contact us</a>
+    </nav>
+    <section class="footer__author">
+      <p class="footer__author__info">
+        Created by akhouad 2016. All Rights Reserved
+      </p>
+      <div class="footer__author__links">
+        <a href="#"> <img src="<%=require('./images/logo-facebook.svg')%>" alt="facebook"> </a>
+        <a href="#"> <img src="<%=require('./images/logo-twitter.svg')%>" alt="twitter"> </a>
+        <a href="#"> <img src="<%=require('./images/logo-youtube.svg')%>" alt="youtube"> </a>
+        <a href="#"> <img src="<%=require('./images/logo-linkedin.svg')%>" alt="linkedin"> </a>
+        <a href="#"> <img src="<%=require('./images/logo-pinterest.svg')%>" alt="pinterest"> </a>
+        <a href="#"> <img src="<%=require('./images/logo-instagram.svg')%>" alt="instagram"> </a>
+      </div>
+    </section>
+  </footer>
+</body>
+</html>
